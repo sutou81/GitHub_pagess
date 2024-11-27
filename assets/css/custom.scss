@@ -1,0 +1,348 @@
+.outside{
+  position:relative;
+  top: 0px;
+  left: 0px;
+  width: 1600px;
+  height: 600px;
+  /* UI Properties */
+  background-color: transparent;
+  background-image: url('../../assets/image/mainvisual.jpg');
+  background-position: 0% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 1;
+  //padding: 20px;
+}
+
+.main{
+  width:100vw;
+  //max-width:50%;
+  background:lightcyan;
+}
+.content{
+  margin:0 auto;
+  width:1600px;
+  border:ridge 1px darkblue;
+  text-align:center;
+}
+.logo{
+  position:absolute;
+  top: 30px;
+  left: 1450px;
+  width: 120px;
+  height: 40px;
+  /* UI Properties */
+  background: #2A2A2A 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+h1.title{
+  display: inline-block;
+  line-height: 27px;
+  font-size: 24px;
+  margin: 0 auto;
+  text-align: left;
+  font-weight: bold;
+  //margin-top: 65px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p.p-out{
+  
+  font-family:"adobe clean", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  font-size:14px;
+  line-height:21px;
+  text-align:center;
+  word-break:break-word;
+  padding:0 8px;
+
+}
+
+div.all-sentence{
+  width:580px;
+  margin:0 auto;
+  margin-top:68px;
+  //background:lightcoral;
+  margin-bottom:30px;
+}
+
+div.second-image{
+  
+  background:lightgreen;
+  height:510px;
+}
+
+.in-image{
+  width:100%;
+  height:100%;
+  //padding-right:20px;
+  background:url("../image/magazine-archive.jpg");
+  background-size:cover;
+  flex: 1
+}
+
+.in-images{
+  width:100%;
+  height:100%;
+  background:url("../image/magazine-new.jpg");
+  background-size:cover;
+  flex: 1;
+}
+
+.flex-content{
+  margin:0 auto;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  width:1040px;
+  height:100%;
+  gap: 20px;
+  background:lightsalmon;
+}
+
+.middle-fraze{
+  text-align:center;
+  margin-top:80px;
+  //padding-top:60px;
+  height:520px;
+  margin-bottom:80px;
+  background:url("../image/fashion.jpg");
+  background-size:cover;
+  background-position:center;
+  font-family:"adobe clean", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+
+.common-style{
+  text-align:center;
+  vertical-align:middle;
+  position:relative;
+}
+
+.common-area{
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height:105px;
+  width:263px;
+  background:#70707080;
+  opacity:0.8;
+
+}
+a.link{
+  display:inline-block;
+  width:133px;
+  height:44px;
+  border:solid 1px;
+  position:relative;
+
+}
+
+.image-in-title{
+  
+  font-family:"adobe clean", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  margin:0 auto;
+  margin-top:16px;
+  color:#fff;
+  position:relative;
+  opacity:1;
+}
+
+span.image-in-text{
+  font-family:"adobe clean", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  display:inline-block;
+  height:45px;
+  width:240px;
+  letter-spacing: 1px;
+  font-size:14px;
+  color:#fff;
+  opacity:1;
+  line-height:18px;
+}
+html{
+  font-family:"adobe clean", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+.middle-title{
+  font-family:Arial;
+  display:inline-block;
+  font-size:24px;
+  margin:0;
+  padding-top:60px;
+  margin-bottom:20px;
+  
+}
+
+.middle-text{
+  font-size:14px;
+  font-family:"Meiryo";
+  line-height:17px;
+  width:552px;
+  margin:0 auto;
+  margin-bottom:31px;
+}
+
+a.link span{
+  height:100%;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  
+  
+}
+
+.middle-content{
+  background-color:#F5F5F5;
+  width:100%;
+  height:1240px;
+}
+.middle-flex{
+  height:100%;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content:center;
+  align-items:center;
+  gap:60px 41px;
+  //margin-bottom:60px;
+}
+
+.middle-flex-child{
+  width:500px;
+  height:500px;
+  //background:lightpink;
+}
+
+.space{
+  width:100%;
+}
+
+.out-flex{
+  padding:60px 0;
+}
+
+.bottom-area{
+  height:368px;
+  background:#333333;
+  //padding-top:103px;
+  //padding-bottom:125px;
+}
+.middle-flex-child.first{
+  background:url("../image/catalog.jpg");
+  background-size:cover;
+}
+.middle-flex-child.second,.middle-flex-child.third{
+  position:relative;
+}
+.flex-second-content{
+  width:100%;
+  height:318px;
+  //background:lightgray;
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+
+}
+.flex-second-title{
+  font-size:24px;
+  font-weight:bold;
+  font-family:Arial, Helvetica, sans-serif;
+  margin:0 auto;
+}
+
+.flex-second-text{
+  margin-top:43px;
+  font-family:"メイリオ";
+  font-size:12.5px;
+  text-align:center;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-direction:column;
+  gap:31px;
+  width:100%;
+  overflow-wrap: break-word;
+  letter-spacing: 1px;
+
+}
+
+.flex-second-text > p{
+  margin:0;
+  line-height:calc(62*1.6/60);
+}
+
+.second-link{
+  margin-top:56px;
+}
+
+.middle-flex-child.fourth{
+  background:url("../image/antique.jpg");
+  background-size:cover;
+}
+
+.bottom-content{
+  display:inline-block;
+  margin-top:103px;
+  margin-bottom:125px;
+  width:100%;
+  border-spacing:0;
+  height:140px;
+  //background:lightgreen;
+  color:#FFF;
+}
+
+tr.one-step{
+  height:30px;
+  //background:yellow;
+  text-align:left;
+  vertical-align:top;
+  font-family:Arial;
+  font-weight:bold;
+  font-size:16px;
+}
+
+th.image-field{
+  width:617px;
+}
+
+th.sentence{
+  width:158px;
+}
+th.th-space{
+  width:210px;
+}
+th.sentence1{
+  width: calc(1600px - 617px - 150px - 218px)
+}
+tr.two-step{
+  height:110px;
+  //background:orange;
+  font-size:12px;
+  font-family: "メイリオ";
+
+}
+
+td.image-field-content{
+  text-align:center;
+  vertical-align:middle;
+}
+
+.td-spe{
+  text-align:left;
+  line-height:1.8;
+  vertical-align:top;
+}
+.td-spe > p{
+  list-style: none;
+  padding:0;
+  margin:0;
+}
+
+.footer{
+  height: 73px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  font-family: "メイリオ";
+  font-size:12px;
+  line-height:14px;
+}
