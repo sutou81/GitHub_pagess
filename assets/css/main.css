@@ -1,0 +1,68 @@
+/*画像のMaxの幅と高さを調整*/
+img {
+  max-width: 420px;
+  max-height: 220px;
+  border: none; /* 境界線を削除 */
+  /*cursor:pointer;*/
+}
+
+
+li {
+  list-style: none;
+}
+
+
+
+.main {
+  background-color: #f7e1c1;
+  padding: 5px 40px;
+  flex: 1;
+}
+
+
+.copy-container h1 {
+  font-size: 140px;
+}
+
+
+.copy-container h2 {
+  font-size: 60px;
+}
+
+
+.copy-container span {
+  color: #ff4a4a;
+}
+
+
+.contents {
+  height: 500px;
+}
+
+
+.title {
+  border-bottom: 2px solid #000000;
+  font-size: 28px;
+  padding-bottom: 15px;
+  margin-bottom: 50px;
+}
+
+
+.section-title {
+  border-bottom: 2px solid #dee7ec;
+  font-size: 28px;  
+  padding-bottom: 15px;  
+  margin-bottom: 50px;  
+}
+
+
+.contents-item {
+  float: left;
+  margin-right: 20px;
+}
+
+
+.contents-item p {
+  font-size: 15px;
+  margin-top: 30px;
+}

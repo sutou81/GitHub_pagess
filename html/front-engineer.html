@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>笑顔のパスタ屋</title>
+    <link rel="stylesheet" href="../assets/css/custom2.css">
+  </head>
+  <body>
+    <div class="header">
+      <div class="header-logo">メニュー</div>
+      <div class="header-list">
+        <ul>
+          <li>パスタ</li>
+          <li>ドリンク</li>
+        </ul>
+      </div>
+    </div>
+    <div class="main">
+      <div class="contents">
+        <h1 class="title">パスタメニュー</h1>
+
+        <div class="contents-item">
+          <p>サーモンとほうれん草パスタ: 900円</p>
+          <img src="https://cdn-ak.f.st-hatena.com/images/fotolife/s/shinya_gohan/20221029/20221029115732.jpg" alt="">
+        </div>
+        <div class="contents-item">
+          <p>明太子パスタ: 800円</p>
+          <img src="https://imgc.eximg.jp/i=https%253A%252F%252Fimage.excite.co.jp%252Fjp%252Ferecipe%252Frecipe_thumb%252F8%252Fa%252F8a31b29c1430fee428c4b3f72431adac%252Fh%252F600%252Ff111068cc8b3c58511a35a62fce495bf.jpeg&small=550&quality=100&type=webp" alt="">
+        </div>
+        <div class="contents-item">
+          <p>ミートソースパスタ: 700円</p>
+          <img src="https://www.kikkoman.co.jp/homecook/search/recipe/img/00051894.jpg" alt="">
+        </div>
+        <div class="contents-item">
+          <p>イカ墨パスタ: 700円</p>
+          <img src="https://d35omnrtvqomev.cloudfront.net/photo/article/article_part/image_path_1/329923/990a94e0d773e0828424d6a8c6e94d.jpg" alt="">
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <!-- <div>要素を追加し、「footer-logo」というclassをつけてください -->
+      <div class="footer-logo">笑顔のパスタ屋</div>      
+      <!-- <div>要素を追加し、「footer-list」というclassをつけてください -->
+      <div class="footer-list">
+        <ul>
+          <li>会社概要</li>
+          <li><a href="content.html">お問い合わせ</a></li>
+        </ul>
+      </div>      
+    </div>
+    <div class="modal" id="modal">
+      <div class="modal-content">
+        <span class="close-btn">&times;</span>
+        <img src="" alt="パタ画像" id="modal-image" style="width:100%; border-radius:8px; margin-bottom:20px;">
+        <h2 id="modal-title">パスタ名</h2>
+        <p id="modal-price"><span>値段</span></p>
+        <label>数量
+          <input  id="quantity" type="number" value="1" min="1">
+        </label>
+        <button id="order-btn">注文する</button>
+      </div>
+    </div>
+  </body>
+</html>
+
+<script src="../assets/javascript/script.js"></script>

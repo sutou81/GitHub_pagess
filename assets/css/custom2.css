@@ -1,0 +1,11 @@
+@charset "UTF-8";
+@import url("content.css");
+@import url("header.css");
+@import url("main.css");
+@import url("footer.css");
+@import url("modal.css");
+body {
+  font-family: "Avenir Next";
+}
+
+/* contact-formのpadding-topを100pxにしてください *//*# sourceMappingURL=custom2.css.map */

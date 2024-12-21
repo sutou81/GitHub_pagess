@@ -1,0 +1,32 @@
+.contact-form {
+  padding-top: 50px;
+  margin: 0 auto; /* 水平中央寄せします */
+  width: 80%;
+  max-width: 600px;
+  padding: 40px; /* カード内余白を作ります */
+  background-color: #fff; /* カードの背景色を出します */
+  filter:drop-shadow(0 4px 8px rgba(0,0,0,0.2));/*以下のbox-shadowと同様の結果になる*/
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* カード風の影を出します */
+  border-radius: 8px; /* カードの角を丸くします */
+  text-align: center; /* テキストを中央寄せします */
+  margin-top: 50px;
+}
+
+input, textarea{
+  width:400px;
+  margin-top:10px;
+  margin-bottom:30px;
+  padding:20px;
+  font-size:18px;
+  border:solid 1px #dee7ec;
+  outline:0;
+}
+
+input:focus,textarea:focus{
+  border: 3px palevioletred solid;
+}
+
+.contact-submit{
+  background:#dee7ec;
+  color:#889eab;
+}
